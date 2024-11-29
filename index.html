@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container"> 
+        <!-- Music Player 1  -->
+        <div class="music_player player" id="player1">
+            <audio src="" id="audio"></audio>
+            <h1 class="song-name">Song One</h1>
+            <p class="artist-name">Artist</p>
+            
+            <div class="disk" id="disk1"></div>
+
+            <div class="song_slider">
+                <input type="range" value="0" class="slider">
+                <span class="current_time">00:00</span>
+                <span class="song_duration">00:00</span>
+            </div>
+            <div class="controls">
+                <button class="prev_btn"><i class="fa-solid fa-backward"></i></button>
+                <button class="play_btn"><i class="fa-solid fa-play"></i></button>
+                <button class="next_btn"><i class="fa-solid fa-forward"></i></button>
+            </div>
+        </div>
+
+        <!-- Music Player 2 -->
+        <div class="music_player player" id="player2">
+            <audio src="" id="audio"></audio>
+            <h1 class="song-name">Song Two</h1>
+            <p class="artist-name">Artist</p>
+        
+            <div class="disk" id="disk2"></div>
+            
+            <div class="song_slider">
+                <input type="range" value="0" class="slider">
+                <span class="current_time">00:00</span>
+                <span class="song_duration">00:00</span>
+            </div>
+            <div class="controls">
+                <button class="prev_btn"><i class="fa-solid fa-backward"></i></button>
+                <button class="play_btn"><i class="fa-solid fa-play"></i></button>
+                <button class="next_btn"><i class="fa-solid fa-forward"></i></button>
+            </div>
+        </div>
+
+        <!-- Music Player 3 -->
+        <div class="music_player player" id="player3">
+            <audio src="" id="audio"></audio>
+            <h1 class="song-name">Song Three</h1>
+            <p class="artist-name">Artist</p>
+        
+            <div class="disk" id="disk3"></div>
+            
+            <div class="song_slider">
+                <input type="range" value="0" class="slider">
+                <span class="current_time">00:00</span>
+                <span class="song_duration">00:00</span>
+            </div>
+            <div class="controls">
+                <button class="prev_btn"><i class="fa-solid fa-backward"></i></button>
+                <button class="play_btn"><i class="fa-solid fa-play"></i></button>
+                <button class="next_btn"><i class="fa-solid fa-forward"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
